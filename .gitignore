@@ -1,0 +1,40 @@
+# =============== #
+#    SECRETOS
+# =============== #
+# Nunca subir claves de servicio de Google Cloud
+*.json
+
+# Nunca subir claves privadas
+*.pem
+
+# Archivos de entorno que contienen secretos
+.env
+
+# =============== #
+#   CONFIG GCP
+# =============== #
+# Credenciales y configuraciones locales del SDK
+.config/
+.boto
+
+# =============== #
+#     PYTHON
+# =============== #
+# Archivos compilados y cachés de Python
+__pycache__/
+*.pyc
+
+# Entornos virtuales
+.venv/
+venv/
+env/
+
+# =============== #
+#   S.O. Y EDITORES
+# =============== #
+# Archivos de configuración de VS Code
+.vscode/
+
+# Archivos de sistema de macOS y Windows
+.DS_Store
+Thumbs.db
