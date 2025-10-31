@@ -38,3 +38,10 @@ env/
 # Archivos de sistema de macOS y Windows
 .DS_Store
 Thumbs.db
+# =============== #
+#     DATOS
+# =============== #
+# Ignorar archivos de datos crudos o de prueba
+*.csv
+*.jsonl
+*.parquet
