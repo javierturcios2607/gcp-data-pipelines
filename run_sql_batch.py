@@ -4,7 +4,7 @@ import os
 # --- CONFIGURACIÓN ---
 PROJECT_ID = "riverajavier-dev"
 DATASET_ID = "fenix_dataset"
-EXECUTION_DATE = "2025-10-31"
+EXECUTION_DATE = "2025-11-06"
 SQL_FILE = "load_optimized_sales.sql"
 # --- FIN DE CONFIGURACIÓN ---
 
